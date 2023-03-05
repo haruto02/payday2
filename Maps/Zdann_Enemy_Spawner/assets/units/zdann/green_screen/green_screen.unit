@@ -1,0 +1,6 @@
+<unit type="mkp" slot="1">
+	<object file="units/zdann/green_screen/green_screen" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

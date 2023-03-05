@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<unit type="hcm" slot="1">
+    <object file="introcinematics/units/arm_hcm/overpass/hcm_b_ext_4x4m_a_overpass_end_a_interact" />
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="attention" class="AIAttentionObject" />
+	</extensions>
+</unit>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+    <diesel materials="introcinematics/units/arm_hcm/overpass/hcm_b_ext_4x8m_a_overpass_tile_a_interact" orientation_object="rp_hcm_b_ext_4x8m_a_overpass_tile_a_interact" />
+    <sequence_manager file="introcinematics/units/arm_hcm/overpass/hcm_b_ext_4x8m_a_overpass_tile_a_interact" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_hcm_b_ext_4x8m_a_overpass_tile_a_interact"/>
+            <object name="c_convex_12" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_15" collision_type="convex" padding="-2.5"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object name="c_box_18" collision_type="box" padding="-2.5"/>
+			<object name="c_box_19" collision_type="box" padding="-2.5"/>
+			<object name="c_box_20" collision_type="box" padding="-2.5"/>
+			<object name="c_box_21" collision_type="box" padding="-2.5"/>
+			<object name="c_box_22" collision_type="box" padding="-2.5"/>
+			<object name="c_box_23" collision_type="box" padding="-2.5"/>
+			<object name="c_box_24" collision_type="box" padding="-2.5"/>
+			<object name="c_box_25" collision_type="box" padding="-2.5"/>
+			<object name="c_box_26" collision_type="box" padding="-2.5"/>
+			<object name="c_box_27" collision_type="box" padding="-2.5"/>
+			<object name="c_box_28" collision_type="box" padding="-2.5"/>
+			<object name="c_box_29" collision_type="box" padding="-2.5"/>
+			<object name="c_box_30" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_13" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_14" collision_type="convex" padding="-2.5"/>
+        </body>
+
+
+        <body name="body_glass1" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+             <object name="rp_hcm_b_ext_4x8m_a_overpass_tile_a_interact" />
+            <object name="c_box_glass_01" collision_type="box" />
+        </body>
+        <body name="body_glass2" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+             <object name="rp_hcm_b_ext_4x8m_a_overpass_tile_a_interact" />
+            <object name="c_box_glass_02" collision_type="box" />
+        </body>
+        <body name="body_glass3" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+             <object name="rp_hcm_b_ext_4x8m_a_overpass_tile_a_interact" />
+            <object name="c_box_glass_03" collision_type="box" />
+        </body>
+        <body name="body_glass4" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+             <object name="rp_hcm_b_ext_4x8m_a_overpass_tile_a_interact" />
+            <object name="c_box_glass_04" collision_type="box" />
+        </body>
+
+    </bodies>
+
+    
+    <decal_surfaces default_material="metal" static="true">
+        <decal_mesh name="dm_metal" material="metal" enabled="true"/>
+        <decal_mesh name="dm_plastic" material="plastic" enabled="true"/>
+        <decal_mesh name="dm_carpet" material="carpet" enabled="true"/>
+    </decal_surfaces> 
+    
+    <graphics>      
+        <object enabled="true" name="g_hcm_b_ext_4x8m_a_overpass_tile_a_interact" shadow_caster="false" />
+        <object enabled="true" name="s_hcm_b_ext_4x8m_a_overpass_tile_a_interact" shadow_caster="true" />
+        
+        <object enabled="false" name="g_glass_1shatter" />
+        <object enabled="true" name="g_glass_1" />
+        <object enabled="false" name="g_glass_1crack" />
+
+        <object enabled="false" name="g_glass_2shatter" />
+        <object enabled="true" name="g_glass_2" />
+        <object enabled="false" name="g_glass_2crack" />
+
+        <object enabled="false" name="g_glass_3shatter" />
+        <object enabled="true" name="g_glass_3" />
+        <object enabled="false" name="g_glass_3crack" />
+
+        <object enabled="false" name="g_glass_4shatter" />
+        <object enabled="true" name="g_glass_4" />
+        <object enabled="false" name="g_glass_4crack" />
+
+    </graphics>
+    
+</dynamic_object>

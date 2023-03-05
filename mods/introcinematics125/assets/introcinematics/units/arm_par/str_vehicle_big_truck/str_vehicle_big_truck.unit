@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<unit type="str" slot="1">
+  <object file="introcinematics/units/arm_par/str_vehicle_big_truck/str_vehicle_big_truck" />
+  
+  
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

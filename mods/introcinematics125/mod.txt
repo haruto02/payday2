@@ -1,0 +1,42 @@
+{
+	"name": "Intro Cinematics By ThuverX",
+	"description": "Intro Cinematics add cinematics to Payday 2",
+	"author": "ThuverX",
+	"contact": "https://discord.gg/QH8U8m9",
+	"version": "125",
+	"priority": 0,
+	"hooks": [
+		{
+			"hook_id": "lib/setups/setup",
+			"script_path": "lua/Core.lua"
+		},
+		{
+			"hook_id": "core/lib/setups/coresetup",
+			"script_path": "lua/Core.lua"
+		},
+		{
+			"hook_id": "lib/managers/menu/menucomponentmanager",
+			"script_path": "lua/Core.lua"
+		},
+		{
+			"hook_id": "lib/states/ingamewaitingforplayers",
+			"script_path": "lua/Core.lua"
+		},
+		{
+			"hook_id": "lib/managers/hud/hudmissionbriefing",
+			"script_path": "lua/Core.lua"
+		},
+		{
+			"hook_id": "lib/managers/hud/hudblackscreen",
+			"script_path": "lua/Core.lua"
+		},
+		{
+			"hook_id": "lib/managers/voicebriefingmanager",
+			"script_path": "lua/Core.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/levelstweakdata",
+			"script_path": "lua/Core.lua"
+		}
+	]
+}

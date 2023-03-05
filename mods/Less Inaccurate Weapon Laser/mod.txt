@@ -1,0 +1,34 @@
+{
+	"blt_version" : 2,
+	"name" : "Less Inaccurate Weapon Laser",
+	"description" : "",
+	"author" : "TdlQ",
+	"image" : "tdlq.dds",
+	"color" : "0.52 1 0",
+	"contact" : "",
+	"version" : "7",
+	"priority" : 200,
+	"simple_update_url" : "http://pd2mods.z77.fr/update/LessInaccurateWeaponLaser.zip",
+	"updates": [
+		{
+			"identifier" : "SimpleModUpdater",
+			"display_name" : "Simple Mod Updater",
+			"install_folder" : "Simple Mod Updater",
+			"host" : { "meta": "http://pd2mods.z77.fr/meta/SimpleModUpdater", }
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id" : "lib/units/beings/player/playerinventory",
+			"script_path" : "lua/playerinventory.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/weapongadgetbase",
+			"script_path" : "lua/weapongadgetbase.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/weaponlaser",
+			"script_path" : "lua/weaponlaser.lua"
+		}
+	]
+}

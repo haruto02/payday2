@@ -1,0 +1,10 @@
+<table directory="assets">
+	<cooked_physics path="units/zdann/green_screen/green_screen"/>
+	<material_config path="units/zdann/green_screen/green_screen"/>
+	<model path="units/zdann/green_screen/green_screen"/>
+	<object path="units/zdann/green_screen/green_screen"/>
+	<unit path="units/zdann/green_screen/green_screen"/>
+	<texture load="true" path="units/zdann/green_screen/green_df"/>
+	<texture load="true" path="units/zdann/green_screen/green_nm"/>
+	<texture force="true" path="core/textures/lens_dirt"/>
+</table>

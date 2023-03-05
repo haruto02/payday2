@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="str" slot="1">
+	<object file="introcinematics/units/global/str_vehicle_van_player/str_vehicle_van_player" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="van_skin" class="VanSkinExt" />
+	</extensions>
+</unit>

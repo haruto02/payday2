@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/zdann/green_screen/green_screen" orientation_object="rp_mkp_int_floor_4x4m_a" />
+	<bodies>
+		<body name="body_static" enabled="false" template="static">
+			<object name="rp_mkp_int_floor_4x4m_a" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="greenscreen" enabled="true" culling_object="g_mkp_int_floor_4x4m_a">
+			<object name="g_mkp_int_floor_4x4m_a" enabled="true" shadow_caster="false" />
+		</graphic_group>
+	</graphics>
+    <decal_surfaces>
+		<decal_mesh name="g_mkp_int_floor_4x4m_a" enabled="false" material="concrete"/>
+    </decal_surfaces>
+</dynamic_object>

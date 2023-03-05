@@ -1,0 +1,1163 @@
+<table directory="assets">
+	<texture load="true" path="units/zdann/green_screen/green_df"/>
+	<texture load="true" path="units/zdann/green_screen/green_nm"/>
+	<texture force="true" path="core/textures/lens_dirt"/>
+	<model path="units/zdann/green_screen/green_screen"/>
+	<object path="units/zdann/green_screen/green_screen"/>
+	<unit path="units/zdann/green_screen/green_screen"/>
+	<model path="units/zdann/green_screen/green_screen_wide"/>
+	<object path="units/zdann/green_screen/green_screen_wide"/>
+	<unit path="units/zdann/green_screen/green_screen_wide"/>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_64x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_64x32m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_64x32m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="core/units/light_omni/light_omni" unload="true"/>
+		<unit path="core/units/light_omni/light_omni" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_medic_r870/ene_medic_r870" type="unit">
+		<unit path="units/payday2/characters/ene_medic_r870/ene_medic_r870" unload="true"/>
+		<object path="units/payday2/characters/ene_medic_r870/ene_medic_r870" unload="true"/>
+		<material_config path="units/payday2/characters/ene_medic_r870/ene_medic_r870" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_medic_helmet/ene_acc_medic_helmet" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_medic_helmet/ene_acc_medic_helmet" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_medic_helmet/ene_acc_medic_helmet" unload="true"/>
+		<unit path="units/payday2/characters/ene_medic_r870/ene_medic_r870_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" type="unit">
+		<unit path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<material_config path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_turret_debris" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_turret_debris" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_front" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_front" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/flashlight/flashlight" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_upper" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_upper" unload="true"/>
+		<bnk path="soundbanks/weapon_swatturret" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/npc_mr_pink_civ/npc_mr_pink_civ" type="unit">
+		<unit path="units/pd2_dlc_rvd/characters/npc_mr_pink_civ/npc_mr_pink_civ" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/impacts/blood/blood_dripping" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/impacts/blood/blood_splash" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_rvd/characters/npc_mr_pink_civ/npc_mr_pink_civ_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/npc_mr_pink_civ/npc_mr_pink_civ" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/npc_mr_pink_civ/npc_mr_pink_civ" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" type="unit">
+		<unit path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_1/ene_la_cop_1" type="unit">
+		<unit path="units/pd2_dlc_rvd/characters/ene_la_cop_1/ene_la_cop_1" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_1/ene_la_cop_1_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/ene_la_cop_1/ene_la_cop_1" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/ene_la_cop_1/ene_la_cop_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_2/ene_la_cop_2" type="unit">
+		<unit path="units/pd2_dlc_rvd/characters/ene_la_cop_2/ene_la_cop_2" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/ene_la_cop_2/ene_la_cop_2" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/ene_la_cop_2/ene_la_cop_2" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_2/ene_la_cop_2_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_3/ene_la_cop_3" type="unit">
+		<unit path="units/pd2_dlc_rvd/characters/ene_la_cop_3/ene_la_cop_3" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/ene_la_cop_3/ene_la_cop_3" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/ene_la_cop_3/ene_la_cop_3" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_3/ene_la_cop_3_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_4/ene_la_cop_4" type="unit">
+		<unit path="units/pd2_dlc_rvd/characters/ene_la_cop_4/ene_la_cop_4" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/ene_la_cop_4/ene_la_cop_4" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/ene_la_cop_4/ene_la_cop_4" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_rvd/characters/ene_la_cop_4/ene_la_cop_4_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_1/ene_biker_1" type="unit">
+		<unit path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<object path="units/payday2/characters/ene_biker_1/ene_biker_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_2/ene_biker_2" type="unit">
+		<unit path="units/payday2/characters/ene_biker_2/ene_biker_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_2/ene_biker_2_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_biker_2/ene_biker_2" unload="true"/>
+		<object path="units/payday2/characters/ene_biker_2/ene_biker_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_3/ene_biker_3" type="unit">
+		<unit path="units/payday2/characters/ene_biker_3/ene_biker_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_3/ene_biker_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_biker_3/ene_biker_3" unload="true"/>
+		<object path="units/payday2/characters/ene_biker_3/ene_biker_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_4/ene_biker_4" type="unit">
+		<unit path="units/payday2/characters/ene_biker_4/ene_biker_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_4/ene_biker_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_biker_4/ene_biker_4" unload="true"/>
+		<object path="units/payday2/characters/ene_biker_4/ene_biker_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1" type="unit">
+		<unit path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1" unload="true"/>
+		<object path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/characters/ene_male_hector_2/ene_male_hector_2" type="unit">
+		<unit path="units/pd2_mcmansion/characters/ene_male_hector_2/ene_male_hector_2" unload="true"/>
+		<unit load="true" path="units/pd2_mcmansion/characters/ene_male_hector_2/ene_male_hector_2_husk" unload="true"/>
+		<material_config path="units/pd2_mcmansion/characters/ene_male_hector_1/ene_male_hector_1" unload="true"/>
+		<object path="units/pd2_mcmansion/characters/ene_male_hector_2/ene_male_hector_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_office_2/ene_fbi_office_2" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_office_2/ene_fbi_office_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_office_2/ene_fbi_office_2_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_office_2/ene_fbi_office_2" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_office_2/ene_fbi_office_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_office_3/ene_fbi_office_3" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_office_3/ene_fbi_office_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_office_3/ene_fbi_office_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_office_3/ene_fbi_office_3" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_office_3/ene_fbi_office_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_office_4/ene_fbi_office_4" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_office_4/ene_fbi_office_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_office_4/ene_fbi_office_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_office_4/ene_fbi_office_4" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_office_4/ene_fbi_office_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_female_1/ene_fbi_female_1" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_female_1/ene_fbi_female_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_female_1/ene_fbi_female_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_female_1/ene_fbi_female_1" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_female_1/ene_fbi_female_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_female_2/ene_fbi_female_2" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_female_2/ene_fbi_female_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_female_2/ene_fbi_female_2_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_female_2/ene_fbi_female_2" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_female_2/ene_fbi_female_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_female_3/ene_fbi_female_3" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_female_3/ene_fbi_female_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_female_3/ene_fbi_female_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_female_3/ene_fbi_female_3" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_female_3/ene_fbi_female_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_female_4/ene_fbi_female_4" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_female_4/ene_fbi_female_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_female_4/ene_fbi_female_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_female_4/ene_fbi_female_4" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_female_4/ene_fbi_female_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_boss_1/ene_fbi_boss_1" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_boss_1/ene_fbi_boss_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_boss_1/ene_fbi_boss_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_boss_1/ene_fbi_boss_1" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_boss_1/ene_fbi_boss_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_2/ene_fbi_2" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_2/ene_fbi_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_2/ene_fbi_2_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_2/ene_fbi_2" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_2/ene_fbi_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_1/ene_fbi_1" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_1/ene_fbi_1" unload="true"/>
+		<object path="units/payday2/characters/ene_fbi_1/ene_fbi_1" unload="true"/>
+		<material_config path="units/payday2/characters/ene_fbi_1/ene_fbi_1" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_fbi_cap/ene_acc_fbi_cap" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_fbi_cap/ene_acc_fbi_cap" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_fbi_cap/ene_acc_fbi_cap" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_1/ene_fbi_1_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_01/ene_thug_indoor_01" type="unit">
+		<unit path="units/pd2_dlc_friend/characters/ene_thug_indoor_01/ene_thug_indoor_01" unload="true"/>
+		<object path="units/pd2_dlc_friend/characters/ene_thug_indoor_01/ene_thug_indoor_01" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/characters/ene_thug_indoor_01/ene_thug_indoor_01" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_01/ene_thug_indoor_01_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/c45/muzzleflash_3dp" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02" type="unit">
+		<unit path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02" unload="true"/>
+		<object path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_03/ene_thug_indoor_03" type="unit">
+		<unit path="units/pd2_dlc_friend/characters/ene_thug_indoor_03/ene_thug_indoor_03" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_03/ene_thug_indoor_03_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/characters/ene_thug_indoor_01/ene_thug_indoor_01" unload="true"/>
+		<object path="units/pd2_dlc_friend/characters/ene_thug_indoor_01/ene_thug_indoor_01" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_04/ene_thug_indoor_04" type="unit">
+		<unit path="units/pd2_dlc_friend/characters/ene_thug_indoor_04/ene_thug_indoor_04" unload="true"/>
+		<object path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_04/ene_thug_indoor_04_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_black_1/ene_gang_black_1" type="unit">
+		<unit path="units/payday2/characters/ene_gang_black_1/ene_gang_black_1" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_black_1/ene_gang_black_1" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_black_1/ene_gang_black_1" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_gang_cap_1/ene_acc_gang_cap_1" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_gang_cap_1/ene_acc_gang_cap_1" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_gang_cap_1/ene_acc_gang_cap_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_black_1/ene_gang_black_1_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_black_2/ene_gang_black_2" type="unit">
+		<unit path="units/payday2/characters/ene_gang_black_2/ene_gang_black_2" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_black_2/ene_gang_black_2" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_black_2/ene_gang_black_2" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_gang_cap_2/ene_acc_gang_cap_2" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_gang_cap_2/ene_acc_gang_cap_2" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_gang_cap_2/ene_acc_gang_cap_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_black_2/ene_gang_black_2_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_black_3/ene_gang_black_3" type="unit">
+		<unit path="units/payday2/characters/ene_gang_black_3/ene_gang_black_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_black_3/ene_gang_black_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_black_3/ene_gang_black_3" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_black_3/ene_gang_black_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_black_4/ene_gang_black_4" type="unit">
+		<unit path="units/payday2/characters/ene_gang_black_4/ene_gang_black_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_black_4/ene_gang_black_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_black_4/ene_gang_black_4" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_black_4/ene_gang_black_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mexican_1/ene_gang_mexican_1" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mexican_1/ene_gang_mexican_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mexican_1/ene_gang_mexican_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mexican_1/ene_gang_mexican_1" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mexican_1/ene_gang_mexican_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mobster_2/ene_gang_mobster_2" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mobster_2/ene_gang_mobster_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mobster_2/ene_gang_mobster_2_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mobster_2/ene_gang_mobster_2" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mobster_2/ene_gang_mobster_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mobster_3/ene_gang_mobster_3" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mobster_3/ene_gang_mobster_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mobster_3/ene_gang_mobster_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mobster_3/ene_gang_mobster_3" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mobster_3/ene_gang_mobster_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mobster_4/ene_gang_mobster_4" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mobster_4/ene_gang_mobster_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mobster_4/ene_gang_mobster_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mobster_4/ene_gang_mobster_4" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mobster_4/ene_gang_mobster_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mobster_boss/ene_gang_mobster_boss" type="unit">
+		<unit path="units/payday2/characters/ene_gang_mobster_boss/ene_gang_mobster_boss" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mobster_boss/ene_gang_mobster_boss_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_mobster_boss/ene_gang_mobster_boss" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_mobster_boss/ene_gang_mobster_boss" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1" type="unit">
+		<unit path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2" type="unit">
+		<unit path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3" type="unit">
+		<unit path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4" type="unit">
+		<unit path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5" type="unit">
+		<unit path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5" unload="true"/>
+		<object path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss" type="unit">
+		<unit path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss" unload="true"/>
+		<object path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_01/ene_bolivian_thug_outdoor_01" type="unit">
+		<unit path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_01/ene_bolivian_thug_outdoor_01" unload="true"/>
+		<object path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_01/ene_bolivian_thug_outdoor_01" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_01/ene_bolivian_thug_outdoor_01" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_01/ene_bolivian_thug_outdoor_01_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_02/ene_bolivian_thug_outdoor_02" type="unit">
+		<unit path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_02/ene_bolivian_thug_outdoor_02" unload="true"/>
+		<object path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_02/ene_bolivian_thug_outdoor_02" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_02/ene_bolivian_thug_outdoor_02" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_friend/characters/ene_bolivian_thug_outdoor_02/ene_bolivian_thug_outdoor_02_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_prisonguard_female_1/ene_prisonguard_female_1" type="unit">
+		<unit path="units/payday2/characters/ene_prisonguard_female_1/ene_prisonguard_female_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_prisonguard_female_1/ene_prisonguard_female_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_prisonguard_female_1/ene_prisonguard_female_1" unload="true"/>
+		<object path="units/payday2/characters/ene_prisonguard_female_1/ene_prisonguard_female_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_prisonguard_male_1/ene_prisonguard_male_1" type="unit">
+		<unit path="units/payday2/characters/ene_prisonguard_male_1/ene_prisonguard_male_1" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_prisonguard_male_1/ene_prisonguard_male_1_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_prisonguard_male_1/ene_prisonguard_male_1" unload="true"/>
+		<object path="units/payday2/characters/ene_prisonguard_male_1/ene_prisonguard_male_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_security_3/ene_security_3" type="unit">
+		<unit path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_3/ene_security_3_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<object path="units/payday2/characters/ene_security_3/ene_security_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_security_4/ene_security_4" type="unit">
+		<unit path="units/payday2/characters/ene_security_4/ene_security_4" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_4/ene_security_4_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_4/ene_security_4" unload="true"/>
+		<object path="units/payday2/characters/ene_security_4/ene_security_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_security_5/ene_security_5" type="unit">
+		<unit path="units/payday2/characters/ene_security_5/ene_security_5" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_5/ene_security_5_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_5/ene_security_5" unload="true"/>
+		<object path="units/payday2/characters/ene_security_5/ene_security_5" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_security_6/ene_security_6" type="unit">
+		<unit path="units/payday2/characters/ene_security_6/ene_security_6" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_6/ene_security_6_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_6/ene_security_6" unload="true"/>
+		<object path="units/payday2/characters/ene_security_6/ene_security_6" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_security_7/ene_security_7" type="unit">
+		<unit path="units/payday2/characters/ene_security_7/ene_security_7" unload="true"/>
+		<object path="units/payday2/characters/ene_security_7/ene_security_7" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_7/ene_security_7" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_security_cap_2/ene_acc_security_cap_2" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_security_cap_2/ene_acc_security_cap_2" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_security_cap_2/ene_acc_security_cap_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_7/ene_security_7_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_security_8/ene_security_8" type="unit">
+		<unit path="units/payday2/characters/ene_security_8/ene_security_8" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_security_8/ene_security_8_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_security_8/ene_security_8" unload="true"/>
+		<object path="units/payday2/characters/ene_security_8/ene_security_8" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1" type="unit">
+		<unit path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1_husk" unload="true"/>
+		<material_config path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1" unload="true"/>
+		<object path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2" type="unit">
+		<unit path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2" unload="true"/>
+		<unit load="true" path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2_husk" unload="true"/>
+		<material_config path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2" unload="true"/>
+		<object path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_security_manager/ene_security_manager" type="unit">
+		<unit path="units/pd2_dlc_friend/characters/ene_security_manager/ene_security_manager" unload="true"/>
+		<object path="units/pd2_dlc_friend/characters/ene_security_manager/ene_security_manager" unload="true"/>
+		<material_config path="units/pd2_dlc_friend/characters/ene_security_manager/ene_security_manager" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_friend/characters/ene_security_manager/ene_security_manager_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_1/ene_guard_security_heavy_1" type="unit">
+		<unit path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_1/ene_guard_security_heavy_1" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_1/ene_guard_security_heavy_1_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_1/ene_guard_security_heavy_1" unload="true"/>
+		<object path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_1/ene_guard_security_heavy_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_2/ene_guard_security_heavy_2" type="unit">
+		<unit path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_2/ene_guard_security_heavy_2" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_2/ene_guard_security_heavy_2_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_2/ene_guard_security_heavy_2" unload="true"/>
+		<object path="units/pd2_dlc_arena/characters/ene_guard_security_heavy_2/ene_guard_security_heavy_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/characters/ene_secret_service_1_casino/ene_secret_service_1_casino" type="unit">
+		<unit path="units/pd2_dlc_casino/characters/ene_secret_service_1_casino/ene_secret_service_1_casino" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_casino/characters/ene_secret_service_1_casino/ene_secret_service_1_casino_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_casino/characters/ene_secret_service_1_casino/ene_secret_service_1_casino" unload="true"/>
+		<object path="units/pd2_dlc_casino/characters/ene_secret_service_1_casino/ene_secret_service_1_casino" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_short/characters/ene_cop_2_shr/ene_cop_2_shr" type="unit">
+		<unit path="units/pd2_dlc_short/characters/ene_cop_2_shr/ene_cop_2_shr" unload="true"/>
+		<object path="units/payday2/characters/ene_cop_2/ene_cop_2" unload="true"/>
+		<material_config path="units/payday2/characters/ene_cop_2/ene_cop_2" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_short/characters/ene_cop_2_shr/ene_cop_2_shr_husk" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/characters/ene_mex_security_guard_3/ene_mex_security_guard_3" type="unit">
+		<unit path="units/pd2_dlc_mex/characters/ene_mex_security_guard_3/ene_mex_security_guard_3" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_mex/characters/ene_mex_security_guard_3/ene_mex_security_guard_3_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_mex/characters/ene_mex_security_guard_3/ene_mex_security_guard_3" unload="true"/>
+		<object path="units/pd2_dlc_mex/characters/ene_mex_security_guard_3/ene_mex_security_guard_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/characters/ene_mex_thug_outdoor_02/ene_mex_thug_outdoor_02" type="unit">
+		<unit path="units/pd2_dlc_mex/characters/ene_mex_thug_outdoor_02/ene_mex_thug_outdoor_02" unload="true"/>
+		<object path="units/pd2_dlc_mex/characters/ene_mex_thug_outdoor_02/ene_mex_thug_outdoor_02" unload="true"/>
+		<material_config path="units/pd2_dlc_mex/characters/ene_mex_thug_outdoor_02/ene_mex_thug_outdoor_02" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_mex/characters/ene_mex_thug_outdoor_02/ene_mex_thug_outdoor_02_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_spa/characters/ene_sniper_3/ene_sniper_3" type="unit">
+		<unit path="units/pd2_dlc_spa/characters/ene_sniper_3/ene_sniper_3" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_spa/characters/ene_sniper_3/ene_sniper_3_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_spa/characters/ene_sniper_3/ene_sniper_3" unload="true"/>
+		<object path="units/pd2_dlc_spa/characters/ene_sniper_3/ene_sniper_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" type="unit">
+		<unit path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<object path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<material_config path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/fire/fire_small" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_distorted" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_distorted_small" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail_small" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_puff" unload="true"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push" unload="true"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push_with_ang" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/impacts/blood/blood_impact_katana" unload="true"/>
+		<effect load="true" path="effects/particles/character/cloaker_goggle" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_baton/ene_acc_baton" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_baton/ene_acc_baton" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_baton/ene_acc_baton" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1_husk" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/drone_smoke" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" type="unit">
+		<unit path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<object path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<material_config path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/fire/fire_small" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_distorted" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_distorted_small" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail_small" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_puff" unload="true"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push" unload="true"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push_with_ang" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_baton/ene_acc_baton" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_baton/ene_acc_baton" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2_husk" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/drone_smoke" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_uno/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/characters/ene_murkywater_secret_service/ene_murkywater_secret_service" type="unit">
+		<unit path="units/pd2_dlc_vit/characters/ene_murkywater_secret_service/ene_murkywater_secret_service" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_vit/characters/ene_murkywater_secret_service/ene_murkywater_secret_service_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_vit/characters/ene_murkywater_secret_service/ene_murkywater_secret_service" unload="true"/>
+		<object path="units/pd2_dlc_vit/characters/ene_murkywater_secret_service/ene_murkywater_secret_service" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_captain/ene_captain" type="unit">
+		<unit path="units/pd2_dlc_wwh/characters/ene_captain/ene_captain" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_captain/ene_captain_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_wwh/characters/ene_captain/ene_captain" unload="true"/>
+		<object path="units/pd2_dlc_wwh/characters/ene_captain/ene_captain" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vip/characters/ene_phalanx_1/ene_phalanx_1" type="unit">
+		<unit path="units/pd2_dlc_vip/characters/ene_phalanx_1/ene_phalanx_1" unload="true"/>
+		<object path="units/pd2_dlc_vip/characters/ene_phalanx_1/ene_phalanx_1" unload="true"/>
+		<material_config path="units/pd2_dlc_vip/characters/ene_phalanx_1/ene_phalanx_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit path="units/pd2_dlc_vip/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet" unload="true"/>
+		<object path="units/pd2_dlc_vip/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet" unload="true"/>
+		<material_config path="units/pd2_dlc_vip/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet" unload="true"/>
+		<unit path="units/pd2_dlc_vip/characters/ene_acc_shield_phalanx/ene_acc_shield_phalanx" unload="true"/>
+		<object path="units/pd2_dlc_vip/characters/ene_acc_shield_phalanx/ene_acc_shield_phalanx" unload="true"/>
+		<material_config path="units/pd2_dlc_vip/characters/ene_acc_shield_phalanx/ene_acc_shield_phalanx" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vip/characters/ene_acc_shield_phalanx/ene_acc_shield_phalanx" unload="true"/>
+		<effect load="true" path="effects/particles/dest/security_camera_dest" unload="true"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/silenced/muzzleflash_3dp" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_vip/characters/ene_phalanx_1/ene_phalanx_1_husk" unload="true"/>
+		<bnk path="soundbanks/weapon_mp9" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/characters/ene_male_hector_1/ene_male_hector_1" type="unit">
+		<unit path="units/pd2_mcmansion/characters/ene_male_hector_1/ene_male_hector_1" unload="true"/>
+		<unit load="true" path="units/pd2_mcmansion/characters/ene_male_hector_1/ene_male_hector_1_husk" unload="true"/>
+		<material_config path="units/pd2_mcmansion/characters/ene_male_hector_1/ene_male_hector_1" unload="true"/>
+		<object path="units/pd2_mcmansion/characters/ene_male_hector_1/ene_male_hector_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vip/characters/ene_vip_1/ene_vip_1" type="unit">
+		<unit path="units/pd2_dlc_vip/characters/ene_vip_1/ene_vip_1" unload="true"/>
+		<object path="units/pd2_dlc_vip/characters/ene_vip_1/ene_vip_1" unload="true"/>
+		<material_config path="units/pd2_dlc_vip/characters/ene_vip_1/ene_vip_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit path="units/pd2_dlc_vip/characters/ene_acc_shield_vip/ene_acc_shield_vip" unload="true"/>
+		<object path="units/pd2_dlc_vip/characters/ene_acc_shield_vip/ene_acc_shield_vip" unload="true"/>
+		<material_config path="units/pd2_dlc_vip/characters/ene_acc_shield_vip/ene_acc_shield_vip" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vip/characters/ene_acc_shield_vip/ene_acc_shield_vip" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_vip/characters/ene_vip_1/ene_vip_1_husk" unload="true"/>
+		<bnk path="soundbanks/weapon_mp9" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2" type="unit">
+		<unit path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2" unload="true"/>
+		<object path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3" type="unit">
+		<unit path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3" unload="true"/>
+		<object path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_female_crew/ene_female_crew" type="unit">
+		<unit path="units/pd2_dlc_wwh/characters/ene_female_crew/ene_female_crew" unload="true"/>
+		<object path="units/pd2_dlc_wwh/characters/ene_female_crew/ene_female_crew" unload="true"/>
+		<material_config path="units/pd2_dlc_wwh/characters/ene_female_crew/ene_female_crew" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_female_crew/ene_female_crew_husk" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45" unload="true"/>
+		<bnk path="soundbanks/weapon_c45" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_01/ene_male_crew_01" type="unit">
+		<unit path="units/pd2_dlc_wwh/characters/ene_male_crew_01/ene_male_crew_01" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_01/ene_male_crew_01_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_wwh/characters/ene_male_crew_01/ene_male_crew_01" unload="true"/>
+		<object path="units/pd2_dlc_wwh/characters/ene_male_crew_01/ene_male_crew_01" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02" type="unit">
+		<unit path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02" unload="true"/>
+		<object path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke" type="unit">
+		<unit path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke" unload="true"/>
+		<object path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/characters/ene_murkywater_not_security_1/ene_murkywater_not_security_1" type="unit">
+		<unit path="units/pd2_dlc_des/characters/ene_murkywater_not_security_1/ene_murkywater_not_security_1" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_des/characters/ene_murkywater_not_security_1/ene_murkywater_not_security_1_husk" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/character/flashlight_ss" unload="true"/>
+		<material_config path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1" unload="true"/>
+		<object path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/characters/ene_murkywater_not_security_2/ene_murkywater_not_security_2" type="unit">
+		<unit path="units/pd2_dlc_des/characters/ene_murkywater_not_security_2/ene_murkywater_not_security_2" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_des/characters/ene_murkywater_not_security_2/ene_murkywater_not_security_2_husk" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/character/flashlight_ss" unload="true"/>
+		<material_config path="units/payday2/characters/ene_murkywater_2/ene_murkywater_2" unload="true"/>
+		<object path="units/payday2/characters/ene_murkywater_2/ene_murkywater_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_secret_service_2/ene_secret_service_2" type="unit">
+		<unit path="units/payday2/characters/ene_secret_service_2/ene_secret_service_2" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_secret_service_2/ene_secret_service_2_husk" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/character/flashlight_ss" unload="true"/>
+		<material_config path="units/payday2/characters/ene_secret_service_2/ene_secret_service_2" unload="true"/>
+		<object path="units/payday2/characters/ene_secret_service_2/ene_secret_service_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/characters/ene_male_commissioner/ene_male_commissioner" type="unit">
+		<unit path="units/pd2_dlc_tag/characters/ene_male_commissioner/ene_male_commissioner" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_tag/characters/ene_male_commissioner/ene_male_commissioner_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_tag/characters/ene_male_commissioner/ene_male_commissioner" unload="true"/>
+		<object path="units/pd2_dlc_tag/characters/ene_male_commissioner/ene_male_commissioner" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/characters/ene_male_triad_01/ene_male_triad_01" type="unit">
+		<unit path="units/pd2_dlc_chas/characters/ene_male_triad_01/ene_male_triad_01" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_chas/characters/ene_male_triad_01/ene_male_triad_01_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/characters/ene_male_triad_01/ene_male_triad_01" unload="true"/>
+		<object path="units/pd2_dlc_chas/characters/ene_male_triad_01/ene_male_triad_01" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_1/ene_male_triad_gang_1" type="unit">
+		<unit path="units/pd2_dlc_chas/characters/ene_male_triad_gang_1/ene_male_triad_gang_1" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_1/ene_male_triad_gang_1_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/characters/ene_male_triad_gang_1/ene_male_triad_gang_1" unload="true"/>
+		<object path="units/pd2_dlc_chas/characters/ene_male_triad_gang_1/ene_male_triad_gang_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_3/ene_male_triad_gang_3" type="unit">
+		<unit path="units/pd2_dlc_chas/characters/ene_male_triad_gang_3/ene_male_triad_gang_3" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_3/ene_male_triad_gang_3_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/characters/ene_male_triad_gang_3/ene_male_triad_gang_3" unload="true"/>
+		<object path="units/pd2_dlc_chas/characters/ene_male_triad_gang_3/ene_male_triad_gang_3" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_4/ene_male_triad_gang_4" type="unit">
+		<unit path="units/pd2_dlc_chas/characters/ene_male_triad_gang_4/ene_male_triad_gang_4" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_4/ene_male_triad_gang_4_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/characters/ene_male_triad_gang_4/ene_male_triad_gang_4" unload="true"/>
+		<object path="units/pd2_dlc_chas/characters/ene_male_triad_gang_4/ene_male_triad_gang_4" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_5/ene_male_triad_gang_5" type="unit">
+		<unit path="units/pd2_dlc_chas/characters/ene_male_triad_gang_5/ene_male_triad_gang_5" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_5/ene_male_triad_gang_5_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/characters/ene_male_triad_gang_5/ene_male_triad_gang_5" unload="true"/>
+		<object path="units/pd2_dlc_chas/characters/ene_male_triad_gang_5/ene_male_triad_gang_5" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_2/ene_male_triad_gang_2" type="unit">
+		<unit path="units/pd2_dlc_chas/characters/ene_male_triad_gang_2/ene_male_triad_gang_2" unload="true"/>
+		<unit load="true" path="units/pd2_dlc_chas/characters/ene_male_triad_gang_2/ene_male_triad_gang_2_husk" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/characters/ene_male_triad_gang_2/ene_male_triad_gang_2" unload="true"/>
+		<object path="units/pd2_dlc_chas/characters/ene_male_triad_gang_2/ene_male_triad_gang_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker_2x2/dev_ai_vis_blocker_2x2" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker_2x2/dev_ai_vis_blocker_2x2" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker_2x2/dev_ai_vis_blocker_2x2" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_2x2/dev_ai_vis_blocker_2x2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_4m_c" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_4m_c" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_4m_c" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_stairs_bottom" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_stairs_bottom" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_stairs_bottom" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_stairs_top" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_stairs_top" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_stairs_top" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_pillar_025m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_pillar_025m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_pillar_025m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_pillar_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_pillar_1m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_pillar_1m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_cargobaydoor_b" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_cargobaydoor_b" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_cargobaydoor_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_wall" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_wall" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_wall" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_front" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_front" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_front" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_ext_plane" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/plane_jet_engine" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_ext_plane" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_ext_plane" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" type="unit">
+		<font path="fonts/font_digital" unload="true"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" type="unit">
+		<material_config path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<object path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<sequence_manager path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" type="unit">
+		<unit path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
+		<object path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
+		<material_config path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1_red" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_falcogini" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/dye_pack/dye_pack_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/bag_explosion" unload="true"/>
+		<effect load="true" path="effects/particles/explosions/burnpuff" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" type="unit">
+		<object path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" unload="true"/>
+		<material_config path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/thrd_vehicle_bike_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_mc_harley" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<unit path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/water/water_speed_splash_rib_boat" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/water/water_splash_rib_boat" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_rubber_boat" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+		<object path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_truck" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+		<object path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+		<unit path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" type="unit">
+		<object path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/car_forklift" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<unit path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_muscle" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		<object path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		<unit path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker_2x2/dev_ai_vis_blocker_2x2" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_usm1/characters/ene_male_marshal_marksman_1/ene_male_marshal_marksman_1" type="unit">
+		<unit path="units/pd2_dlc_usm1/characters/ene_male_marshal_marksman_1/ene_male_marshal_marksman_1"/>
+		<object path="units/pd2_dlc_usm1/characters/ene_male_marshal_marksman_1/ene_male_marshal_marksman_1"/>
+		<material_config path="units/pd2_dlc_usm1/characters/ene_male_marshal_marksman_1/ene_male_marshal_marksman_1"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<unit path="units/pd2_dlc_usm1/weapons/wpn_npc_dmr/wpn_npc_dmr"/>
+		<object path="units/pd2_dlc_usm1/weapons/wpn_npc_dmr/wpn_npc_dmr"/>
+		<material_config path="units/pd2_dlc_usm1/weapons/wpn_npc_dmr/wpn_npc_dmr"/>
+		<sequence_manager path="units/pd2_dlc_usm1/weapons/wpn_npc_dmr/wpn_npc_dmr"/>
+		<effect load="true" path="effects/particles/weapons/sniper_glint_marshal"/>
+		<effect load="true" path="effects/particles/weapons/rifle/muzzleflash_3dp"/>
+		<effect load="true" path="effects/particles/weapons/sniper_trail_marshal"/>
+		<bnk path="soundbanks/weapon_saint_victor"/>
+		<unit path="units/pd2_dlc_usm1/characters/ene_acc_marksman_hat/ene_acc_marksman_hat"/>
+		<object path="units/pd2_dlc_usm1/characters/ene_acc_marksman_hat/ene_acc_marksman_hat"/>
+		<material_config path="units/pd2_dlc_usm1/characters/ene_acc_marksman_hat/ene_acc_marksman_hat"/>
+		<unit load="true" path="units/pd2_dlc_usm1/characters/ene_male_marshal_marksman_1/ene_male_marshal_marksman_1_husk"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/environments/uno_tunnel" type="environment">
+		<environment path="units/pd2_dlc_uno/environments/uno_tunnel"/>
+		<material_config path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+		<scene path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+	</add>
+	<add from_db="true" path="environments/env_2100_moon/env_2100_moon" type="environment">
+		<environment path="environments/env_2100_moon/env_2100_moon"/>
+		<material_config path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+		<scene path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+	</add>
+	<add from_db="true" path="environments/pd2_mcmansion_night/pd2_mcmansion_night" type="environment">
+		<environment path="environments/pd2_mcmansion_night/pd2_mcmansion_night"/>
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart" type="unit">
+		<unit path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<object path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<material_config path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<sequence_manager path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke"/>
+		<bnk path="soundbanks/car_gc"/>
+		<bnk path="soundbanks/regular_car_sfx"/>
+		<unit path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_usm2/characters/ene_male_marshal_shield_1/ene_male_marshal_shield_1" type="unit">
+		<unit load="true" path="units/pd2_dlc_usm2/characters/ene_male_marshal_shield_1/ene_male_marshal_shield_1"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_male_marshal_shield_1/ene_male_marshal_shield_1"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_1"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_1"/>
+		<material_config path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_1"/>
+		<sequence_manager path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_1"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_1"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_1"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_2"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_2"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_3"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_3"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_4"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_4"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_5"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_5"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_6"/>
+		<object path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_debris_6"/>
+		<effect load="true" path="effects/payday2/particles/character/marshal_red_light"/>
+		<effect load="true" path="effects/payday2/particles/character/marshal_bright_light"/>
+		<unit path="units/pd2_dlc_usm2/weapons/wpn_npc_deagle/wpn_npc_deagle"/>
+		<object path="units/pd2_dlc_usm2/weapons/wpn_npc_deagle/wpn_npc_deagle"/>
+		<material_config path="units/pd2_dlc_usm2/weapons/wpn_npc_deagle/wpn_npc_deagle"/>
+		<sequence_manager path="units/pd2_dlc_usm2/weapons/wpn_npc_deagle/wpn_npc_deagle"/>
+		<unit path="units/pd2_dlc_usm2/weapons/wpn_npc_sko12_conc/wpn_npc_sko12_conc"/>
+		<object path="units/pd2_dlc_usm2/weapons/wpn_npc_sko12_conc/wpn_npc_sko12_conc"/>
+		<material_config path="units/pd2_dlc_usm2/weapons/wpn_npc_sko12_conc/wpn_npc_sko12_conc"/>
+		<sequence_manager path="units/pd2_dlc_usm2/weapons/wpn_npc_sko12_conc/wpn_npc_sko12_conc"/>
+		<unit load="true" path="units/pd2_dlc_usm2/characters/ene_male_marshal_shield_1/ene_male_marshal_shield_1_husk"/>
+		<unit path="units/pd2_dlc_usm2/characters/ene_acc_marshal_shield_1/marshal_shield_1_dummy"/>
+	</add>
+	<cooked_physics path="units/zdann/green_screen/green_screen"/>
+	<material_config path="units/zdann/green_screen/green_screen"/>
+</table>

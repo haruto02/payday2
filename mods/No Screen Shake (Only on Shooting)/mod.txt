@@ -1,0 +1,16 @@
+{
+	"name": "No Screen Shake (Only on Shooting)",
+	"description": "Self-explanatory.",
+	"author": "Sydch",
+	"contact": "id/40X70N",
+	"version": "INIT",
+	"blt_version" : 2,
+	"image" : "doc/grunge.png",
+	"color" : "50 50 50",
+	"hooks": [
+		{ 	
+			"hook_id" : "lib/tweak_data/tweakdata", 
+			"script_path" : "lua/lib/tweak_data/tweakdata.lua" 
+		}
+	]
+}

@@ -1,0 +1,25 @@
+<materials version="3">
+    <material name="barrels" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS">
+        <bump_normal_texture file="units/payday2/vehicles/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat_nm"/>
+        <diffuse_texture file="units/payday2/vehicles/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat_df"/>
+    </material>
+    <material name="barrels_static" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/payday2/vehicles/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat_nm"/>
+        <diffuse_texture file="units/payday2/vehicles/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat_df"/>
+    </material>
+    <material name="speed_boat" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/payday2/vehicles/gen_vehicle_cocaineboat/speedboat_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/gen_vehicle_cocaineboat/speedboat_nm"/>
+    </material>
+    <material name="mtr_water_wave" render_template="generic:CUBE_ENVIRONMENT_MAPPING:CUBE_ENVIRONMENT_MAPPING_WATER:DIFFUSE_TEXTURE:RL_BACKDROP:WATER_BIG" version="2">
+        <diffuse_texture file="units/world/water/water_foam_df"/>
+        <variable value="10 10 10" type="vector3" name="water_settings_c"/>
+        <variable value="0.43269997835159 0 0.38459998369217" type="vector3" name="water_settings_b"/>
+        <bump_normal_texture file="units/world/water/water_2_nm"/>
+        <variable value="0.51863521337509 0.59842520952225 0.44353869557381" type="vector3" name="water_color_a"/>
+        <variable value="0 0.019607843831182 0.090196080505848" type="vector3" name="water_color_b"/>
+        <variable value="0.70000004768372 1.2000000476837 0" type="vector3" name="water_settings"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+</materials>

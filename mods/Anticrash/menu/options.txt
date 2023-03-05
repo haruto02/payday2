@@ -1,0 +1,28 @@
+{
+	"menu_id" : "anticrash_options_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "anticrash_options_menu_title",
+	"description" : "anticrash_options_menu_desc",
+	"focus_changed_callback" : "AnticrashChangedFocus",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "anticrash_default_action",
+			"title" : "anticrash_options_default_action_title",
+			"description" : "anticrash_options_default_action_desc",
+			"callback" : "AnticrashMultipleChoiceDefault",
+			"items" : [
+				"anticrash_action_type_unprotected",
+				"anticrash_action_type_quiet",
+				"anticrash_action_type_chat",
+				"anticrash_action_type_kick",
+				"anticrash_action_type_ban"
+			],
+			"value" : "anticrash_default_action"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		}
+	]
+}

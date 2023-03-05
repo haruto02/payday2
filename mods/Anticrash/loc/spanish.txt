@@ -1,0 +1,17 @@
+{
+	"anticrash_options_menu_title" : "Anticrash",
+	"anticrash_options_menu_desc" : "Protege contra la mayoría de los crashes debido a retrasos en la red o jugadores malintencionados.",
+
+	"anticrash_options_default_action_title" : "Acción por defecto",
+	"anticrash_options_default_action_desc" : "",
+
+	"anticrash_action_type_default" : "Por defecto",
+	"anticrash_action_type_unprotected" : "Desprotegido",
+	"anticrash_action_type_quiet" : "Tranquilo/logBLT",
+	"anticrash_action_type_chat" : "Chat",
+	"anticrash_action_type_kick" : "Kickear",
+	"anticrash_action_type_ban" : "Banear",
+
+	"anticrash_crash_prevented" : "Crash impedido ($SOURCE)",
+	"anticrash_crash_coming_from" : ", procedente de $NAME"
+}

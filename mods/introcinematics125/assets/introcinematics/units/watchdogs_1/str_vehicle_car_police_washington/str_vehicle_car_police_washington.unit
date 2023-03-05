@@ -1,0 +1,7 @@
+<unit type="str" slot="1">
+	<object file="introcinematics/units/watchdogs_1/str_vehicle_car_police_washington/str_vehicle_car_police_washington" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

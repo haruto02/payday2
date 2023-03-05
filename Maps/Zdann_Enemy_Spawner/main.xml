@@ -1,0 +1,122 @@
+<table name="Zdann_Enemy_Spawner">
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/textures/enemy_spawner_icon"/>
+		<texture load="true" path="guis/textures/enemy_spawner_load"/>
+	</AddFiles>
+	<AssetUpdates id="20663" provider="modworkshop" use_local_dir="true" version="1.13"/>
+	<Localization default="english.txt" directory="loc"/>
+	<level ai_group_type="America" briefing_dialog="" load_screen="guis/textures/enemy_spawner_load" id="Enemy_Spawner" max_bags="0" team_ai_off="true">
+		<add file="levels/Enemy_Spawner/add.xml"/>
+		<assets/>
+		<hooks>
+			<hook file="hooks/achievmentmanager.lua" source_file="lib/managers/achievmentmanager"/>
+			<hook file="hooks/customsafehousemanager.lua" source_file="lib/managers/customsafehousemanager"/>
+			<hook file="hooks/challengemanager.lua" source_file="lib/managers/challengemanager"/>
+			<hook file="hooks/networkaccountsteam.lua" source_file="lib/network/matchmaking/networkaccountsteam"/>
+		</hooks>
+		<include directory="levels/Enemy_Spawner">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/bain/roberts/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/are_loot_shoot/world/world"/>
+			<value_node value="levels/narratives/bain/big/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/dark/train_numbers/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_flare/world/world"/>
+			<value_node value="packages/sm_wish"/>
+			<value_node value="packages/kosugi"/>
+			<value_node value="packages/narr_hox_3"/>
+			<value_node value="packages/narr_pal"/>
+			<value_node value="packages/lvl_fish"/>
+			<value_node value="packages/lvl_help"/>
+			<value_node value="packages/narr_jerry2"/>
+			<value_node value="levels/narratives/vlad/shout/world/world"/>
+			<value_node value="levels/narratives/elephant/born/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/collision/collision"/>
+			<value_node value="levels/narratives/elephant/born/collision/collision"/>
+			<value_node value="levels/narratives/pbr/jerry/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="custom" icon="guis/textures/enemy_spawner_icon" id="Zdann_Enemy_Spawner">
+		<chain>
+			<table level_id="Enemy_Spawner" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="alesso_payday"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</payout>
+	</narrative>
+</table>

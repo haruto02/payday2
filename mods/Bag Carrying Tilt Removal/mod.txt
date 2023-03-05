@@ -1,0 +1,8 @@
+{
+	"name" : "Bag Carrying Tilt Removal",
+	"hooks" : [
+		{ 	"hook_id" : "lib/units/beings/player/states/playercarry",
+			"script_path" : "bctiltremoval.lua"
+		}
+	]
+}

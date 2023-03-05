@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<unit type="camera" slot="1">
+  <object file="introcinematics/units/camera/cinematic_camera" />
+  <extensions>
+    <!--<extension name="unit_data" class="ScriptUnitData" />-->
+    <extension name="camera" class="ThuverX_CinematicCamera" />
+  </extensions>
+</unit>

@@ -1,0 +1,1 @@
+{"fill_breakpoints":true,"use_preview_to_switch_breakpoints":true,"enable_trigger_happy_for_first_bullet":true,"last_used_difficulty":"overkill_290","clicks_per_second":5,"display":{"equip_delay":true,"recoil_horiz":true,"reload_full":true,"spread_vert":false,"recoil_vert":true,"spread":true,"falloff":true,"ammo_pickup":true,"reload_partial":true},"show_dlc_info":true}

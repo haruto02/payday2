@@ -1,0 +1,31 @@
+{
+	"heist_modders_devmap_name":"Proving Grounds",
+	"heist_modders_devmap_brief":"Spawn enemies to test out mods, take fancy screenshots without being shot at, and acid test new builds. \nCreated by VxWolf, Lawsfercapcake, Zdann, and Mako.",
+	"heist_modders_devmap_brief":"Spawn enemies to test out mods, take fancy screenshots without being shot at, and acid test new builds. \nCreated by VxWolf, Lawsfercapcake, Zdann, and Mako.",
+	"heist_modders_devmap_name":"Proving Grounds",
+	"prov_grnd_package_name" : "Proving Ground Achievements",
+	"prov_grnd_50k_name" : "KILLING SPREE",
+	"prov_grnd_50k_desc" : "",
+	"prov_grnd_50k_objective" : "Kill 50 Cops in the Proving Grounds. Unlocks the Cop Clicker Room.",
+	"prov_grnd_100k_name" : "RAMPAGE",
+	"prov_grnd_100k_desc" : "",
+	"prov_grnd_100k_objective" : "Kill 100 Cops in the Proving Grounds. Unlocks the 'All' Faction for the Arena.",
+	"prov_grnd_200k_name" : "DOMINATING",
+	"prov_grnd_200k_desc" : "",
+	"prov_grnd_200k_objective" : "Kill 200 Cops in the Proving Grounds.",
+	"prov_grnd_300k_name" : "UNSTOPPABLE",
+	"prov_grnd_300k_desc" : "",
+	"prov_grnd_300k_objective" : "Kill 300 Cops in the Proving Grounds.",
+	"prov_grnd_400k_name" : "GODLIKE",
+	"prov_grnd_400k_desc" : "",
+	"prov_grnd_400k_objective" : "Kill 400 Cops in the Proving Grounds.",
+	"prov_grnd_500k_name" : "WICKED SICK"
+	"prov_grnd_500k_desc" : "",
+	"prov_grnd_500k_objective" : "Kill 500 Cops in the Proving Grounds.",
+	"prov_grnd_cookie_name" : "Robberpocalypse"
+	"prov_grnd_cookie_desc" : "",
+	"prov_grnd_cookie_objective" : "Complete the Cop Clicker Room. Unlocks the Parachuting Plane.",
+	"prov_grnd_range_name" : "High Noon"
+	"prov_grnd_range_desc" : "",
+	"prov_grnd_range_objective" : "Kill 20 cops in the proving range in 60 seconds. Unlocks the Race Track."
+}

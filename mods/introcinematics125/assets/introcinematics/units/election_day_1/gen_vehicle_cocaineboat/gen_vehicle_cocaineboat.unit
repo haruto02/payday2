@@ -1,0 +1,11 @@
+<unit type="gen" slot="1" >
+    <object file="introcinematics/units/election_day_1/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+    </extensions>
+	<sounds>
+		<default_soundsource source="a_body"/>
+		<soundsource name="body" source="a_body" />
+	</sounds>
+</unit>

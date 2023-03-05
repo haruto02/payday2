@@ -1,0 +1,245 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_vehicle_truck_boxvan_player_edition" materials="introcinematics/units/watchdogs_1/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition" />
+	<sequence_manager file="introcinematics/units/watchdogs_1/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition" />
+    <animations>
+        <animation_group name="door_animation" >
+            <object enabled="false" name="anim_lift_open" />
+            <object enabled="false" name="anim_open" />
+        </animation_group>
+        <animation_group name="door_broken" >
+            <object enabled="false" name="anim_lift_open_broken" />
+            <object enabled="false" name="anim_broken" />
+        </animation_group>
+        <animation_group name="hole_falling" >
+            <object enabled="false" name="anim_falling" />
+        </animation_group> 
+    </animations>
+    <bodies>
+		<body name="graph_blocker" enabled="false" template="graph_blocker"> <!-- Disable when not generating graph to avoid ai walking in the air. -->
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="mesh_mopp" name="c_truck" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_04" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_05" collision_type="capsule" padding="-2.5"/>
+			
+			<object name="c_convex_01"  collision_type="convex"  padding="-2.5"/>
+			<object name="c_convex_02"  collision_type="convex"  padding="-2.5"/>
+			<object name="c_convex_03"  collision_type="convex"  padding="-2.5"/>
+			<object name="c_convex_04" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_05" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_06" collision_type="convex" padding="-2.5"/>
+			
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+        </body>
+        <body enabled="false" template="lock_only" name="floor_hitbox" >
+            <object collision_type="mesh_mopp" name="c_floor_hitbox" />
+        </body>
+        <body enabled="true" template="static" name="floor" >
+            <object collision_type="mesh_mopp" name="c_floor_hole" />
+        </body>
+		<body name="window_front" enabled="true" template="static">
+			<object name="c_window_front" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_front" enabled="true" template="static">
+			<object name="c_window_left_small" collision_type="mesh_mopp" two_sided="true" />
+		</body>	
+		<body remove_ray_type="ai_vision" name="window_right_front" enabled="true" template="static">
+			<object name="c_window_right_small" collision_type="mesh_mopp" two_sided="true" />
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_middle" enabled="true" template="static">
+			<object name="c_window_left_big" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_right_middle" enabled="true" template="static">
+			<object name="c_window_right_big" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body name="hitbox_right" enabled="true" template="static">
+			<object name="c_box_hitbox_right" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="hitbox_left" enabled="true" template="static">
+			<object name="c_box_hitbox_left" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="upper_door" enabled="true" template="animated">
+			<object name="c_upper_door" collision_type="box" />
+		</body>
+		<body name="big_door" enabled="true" template="animated">
+			<object name="c_door" collision_type="box" />
+		</body>
+		<body name="bag_blocker" enabled="true" template="fence" collision_class="bag_blocker">
+			<object name="c_box_bag_blocker" collision_type="box" />
+			<object name="c_box_bag_blocker_2" collision_type="box" />
+		</body>
+    </bodies>
+    <decal_surfaces default_material="metal_chassis">
+        <decal_mesh enabled="true" name="dm_window_right_big" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_left_small" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_left_big" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_right_small" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_window_front" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_rubber" material="rubber" />
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="metal_chassis" />
+    </decal_surfaces>
+    <graphics>
+		<graphic_group name="sawicongroup" 	enabled="false" culling_object="g_icon">
+			<lod_object name="saw_icon">
+					<object name="g_icon" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		
+		<object name="g_back_door" enabled="true"/>
+	
+        <object enabled="true"  name="g_body" />
+        <object enabled="true"  name="g_window_right_big" instance_struct="world_tm" />
+        <object enabled="true"  name="g_window_left_small" instance_struct="world_tm" />
+        <object enabled="true"  name="g_window_left_big" instance_struct="world_tm" />
+        <object enabled="true"  name="g_window_right_small" instance_struct="world_tm" />
+        <object enabled="true"  name="g_window_front" instance_struct="world_tm" />
+        <object enabled="false" name="g_window_front_dmg" instance_struct="world_tm" />
+        <object enabled="false" name="g_window_right_small_dmg" instance_struct="world_tm" />
+        <object enabled="false" name="g_window_left_big_dmg" instance_struct="world_tm" />
+        <object enabled="false" name="g_window_left_small_dmg" instance_struct="world_tm" />
+        <object enabled="false" name="g_window_right_big_dmg" instance_struct="world_tm" />
+		
+        <object enabled="true"  name="g_pneumatic_tube_decal" />
+        <object enabled="true"  name="g_hinge" />
+		
+        <object enabled="true"  name="g_left" />
+        <object enabled="true"  name="g_right" />
+        <object enabled="false" name="g_left_broken" />
+        <object enabled="false" name="g_right_broken" />
+        <object enabled="false" name="g_floor_falling" />
+        <object enabled="false" name="g_floor_hole" />
+        <object enabled="true"  name="g_floor_no_hole" />
+        <object enabled="false" name="g_saw_front" />
+        <object enabled="false" name="g_saw_left" />
+        <object enabled="false" name="g_saw_right" />
+        <object enabled="false" name="g_saw_back" />
+		
+		<object name="s_shadow"    enabled="true" shadow_caster="true" instance_struct="world_tm" />
+		<object name="s_upper"     enabled="true" shadow_caster="true" instance_struct="world_tm" />
+		<object name="s_lift_door" enabled="true" shadow_caster="true" instance_struct="world_tm" />
+		
+        <object enabled="false" name="g_ray_1" />
+        <object enabled="false" name="g_ray_2" />
+        <object enabled="false" name="g_ray_3" />
+        <object enabled="false" name="g_ray_4" />
+        <object enabled="false" name="g_ray_5" />
+        <object enabled="false" name="g_ray_6" />
+        <object enabled="false" name="g_ray_7" />
+        <object enabled="false" name="g_ray_8" />
+        <object enabled="false" name="g_ray_9" />
+        <object enabled="false" name="g_ray_10" />
+        <object enabled="false" name="g_ray_11" />
+        <object enabled="false" name="g_ray_12" />
+        <object enabled="false" name="g_ray_13" />
+        <object enabled="false" name="g_ray_14" />
+        <object enabled="false" name="g_ray_15" />
+        <object enabled="false" name="g_ray_16" />
+        <object enabled="false" name="g_ray_17" />
+        <object enabled="false" name="g_ray_18" />
+        <object enabled="false" name="g_ray_19" />
+        <object enabled="false" name="g_ray_20" />
+        <object enabled="false" name="g_ray_21" />
+        <object enabled="false" name="g_ray_22" />
+        <object enabled="false" name="g_ray_23" />
+        <object enabled="false" name="g_ray_24" />
+        <object enabled="false" name="g_ray_25" />
+        <object enabled="false" name="g_ray_26" />
+        <object enabled="false" name="g_ray_27" />
+        <object enabled="false" name="g_ray_28" />
+        <object enabled="false" name="g_ray_29" />
+        <object enabled="false" name="g_ray_30" />
+        <object enabled="false" name="g_ray_31" />
+        <object enabled="false" name="g_ray_32" />
+        <object enabled="false" name="g_ray_33" />
+        <object enabled="false" name="g_ray_34" />
+        <object enabled="false" name="g_decal_1" />
+        <object enabled="false" name="g_decal_2" />
+        <object enabled="false" name="g_decal_3" />
+        <object enabled="false" name="g_decal_4" />
+        <object enabled="false" name="g_decal_5" />
+        <object enabled="false" name="g_decal_6" />
+        <object enabled="false" name="g_decal_7" />
+        <object enabled="false" name="g_decal_8" />
+        <object enabled="false" name="g_decal_9" />
+        <object enabled="false" name="g_decal_10" />
+        <object enabled="false" name="g_decal_11" />
+        <object enabled="false" name="g_decal_12" />
+        <object enabled="false" name="g_decal_13" />
+        <object enabled="false" name="g_decal_14" />
+        <object enabled="false" name="g_decal_15" />
+        <object enabled="false" name="g_decal_16" />
+        <object enabled="false" name="g_decal_17" />
+        <object enabled="false" name="g_decal_18" />
+        <object enabled="false" name="g_decal_19" />
+        <object enabled="false" name="g_decal_20" />
+        <object enabled="false" name="g_decal_21" />
+        <object enabled="false" name="g_decal_22" />
+        <object enabled="false" name="g_decal_23" />
+        <object enabled="false" name="g_decal_24" />
+        <object enabled="false" name="g_decal_25" />
+        <object enabled="false" name="g_decal_26" />
+        <object enabled="false" name="g_decal_27" />
+        <object enabled="false" name="g_decal_28" />
+        <object enabled="false" name="g_decal_29" />
+        <object enabled="false" name="g_decal_30" />
+        <object enabled="false" name="g_decal_31" />
+        <object enabled="false" name="g_decal_32" />
+        <object enabled="false" name="g_decal_33" />
+        <object enabled="false" name="g_decal_34" />
+        <object enabled="false" name="g_sun_1" />
+        <object enabled="false" name="g_sun_2" />
+        <object enabled="false" name="g_sun_3" />
+        <object enabled="false" name="g_sun_4" />
+        <object enabled="false" name="g_sun_5" />
+        <object enabled="false" name="g_sun_6" />
+        <object enabled="false" name="g_sun_7" />
+        <object enabled="false" name="g_sun_8" />
+        <object enabled="false" name="g_sun_9" />
+        <object enabled="false" name="g_sun_10" />
+        <object enabled="false" name="g_sun_11" />
+        <object enabled="false" name="g_sun_12" />
+        <object enabled="false" name="g_sun_13" />
+        <object enabled="false" name="g_sun_14" />
+        <object enabled="false" name="g_sun_15" />
+        <object enabled="false" name="g_sun_16" />
+        <object enabled="false" name="g_sun_17" />
+        <object enabled="false" name="g_sun_18" />
+        <object enabled="false" name="g_sun_19" />
+        <object enabled="false" name="g_sun_20" />
+        <object enabled="false" name="g_sun_21" />
+        <object enabled="false" name="g_sun_22" />
+        <object enabled="false" name="g_sun_23" />
+        <object enabled="false" name="g_sun_24" />
+        <object enabled="false" name="g_sun_25" />
+        <object enabled="false" name="g_sun_26" />
+        <object enabled="false" name="g_sun_27" />
+        <object enabled="false" name="g_sun_28" />
+        <object enabled="false" name="g_sun_29" />
+        <object enabled="false" name="g_sun_30" />
+        <object enabled="false" name="g_sun_31" />
+        <object enabled="false" name="g_sun_32" />
+        <object enabled="false" name="g_sun_33" />
+        <object enabled="false" name="g_sun_34" />
+    </graphics>
+</dynamic_object>

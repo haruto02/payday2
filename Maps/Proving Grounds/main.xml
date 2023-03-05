@@ -1,0 +1,114 @@
+<table name="Proving Grounds">
+	<Achievements icon="guis/textures/prov_grnd_package" id="prov_grnd_package">
+		<achievement icon="guis/textures/prov_grnd_cookie" id="prov_grnd_cookie" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement icon="guis/textures/prov_grnd_range" id="prov_grnd_range" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement amount="50" icon="guis/textures/prov_grnd_50k" id="prov_grnd_50k" rank="1" reward_amount="3" reward_type="cc"/>
+		<achievement amount="100" icon="guis/textures/prov_grnd_100k" id="prov_grnd_100k" rank="2" reward_amount="6" reward_type="cc"/>
+		<achievement amount="200" icon="guis/textures/prov_grnd_200k" id="prov_grnd_200k" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement amount="300" icon="guis/textures/prov_grnd_300k" id="prov_grnd_300k" rank="3" reward_amount="30" reward_type="cc"/>
+		<achievement amount="400" icon="guis/textures/prov_grnd_400k" id="prov_grnd_400k" rank="4" reward_amount="30" reward_type="cc"/>
+		<achievement amount="500" icon="guis/textures/prov_grnd_500k" id="prov_grnd_500k" rank="4" reward_amount="60" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/textures/prov_grnd_500k"/>
+		<texture load="true" path="guis/textures/prov_grnd_400k"/>
+		<texture load="true" path="guis/textures/prov_grnd_300k"/>
+		<texture load="true" path="guis/textures/prov_grnd_200k"/>
+		<texture load="true" path="guis/textures/prov_grnd_100k"/>
+		<texture load="true" path="guis/textures/prov_grnd_50k"/>
+		<texture load="true" path="guis/textures/prov_grnd_cookie"/>
+		<texture load="true" path="guis/textures/prov_grnd_range"/>
+		<texture load="true" path="guis/textures/prov_grnd_package"/>
+		<texture load="true" path="guis/textures/icon_prov_grnd"/>
+	</AddFiles>
+	<AssetUpdates id="29905" provider="modworkshop" use_local_dir="true" version="3.31"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="America" id="modders_devmap" max_bags="0" orig_id="modders_devmap" team_ai_off="false">
+		<add file="levels/modders_devmap/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="achievmentmanager.lua" source_file="lib/managers/achievmentmanager"/>
+			<hook file="achievementcontroller.lua" source_file="lib/managers/dialogmanager"/>
+			<hook file="customsafehousemanager.lua" source_file="lib/managers/customsafehousemanager"/>
+			<hook file="challengemanager.lua" source_file="lib/managers/challengemanager"/>
+			<hook file="networkaccountsteam.lua" source_file="lib/network/matchmaking/networkaccountsteam"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="packages/job_bex"/>
+			<value_node value="packages/narr_hvh"/>
+			<value_node value="packages/narr_jerry1"/>
+			<value_node value="packages/sm_wish"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="custom" icon="guis/textures/icon_prov_grnd" id="modders_devmap">
+		<chain>
+			<table level_id="modders_devmap" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</payout>
+	</narrative>
+</table>

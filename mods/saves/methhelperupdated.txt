@@ -1,0 +1,1 @@
+{"_language_index":3,"ingred_chatmode":2,"fail_hintmode":true,"added_chatmode":1,"added_hintmode":false,"fail_chatmode":3,"ingred_repeat":false,"done_chatmode":1,"ingred_hintmode":true,"enabled":true,"done_hintmode":false,"language_name":"en.txt"}

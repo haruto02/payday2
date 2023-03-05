@@ -1,0 +1,8 @@
+<ugcitem>
+	<node name="data">
+		<param key="weapon_id" value="flint"/>
+	</node>
+	<param key="name" value="New Skin 6"/>
+	<param key="type" value="weapon_skin"/>
+	<param key="timestamp" value="2023021231001"/>
+</ugcitem>

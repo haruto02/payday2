@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="introcinematics/units/camera/cinematic_camera" orientation_object="rp_waiting_camera_01" />
+  <objects>
+    <object name="a_camera" enabled="true" />
+  </objects>
+</dynamic_object>

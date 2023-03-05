@@ -1,0 +1,60 @@
+<table name="IntroCinematics">
+	<AssetUpdates id="ThuverX/introcinematics" provider="github" branch="main"/>
+	<AddFiles directory="assets">
+		<!-- NOTO SANS -->
+
+		<texture path="thuverx/fonts/notosans/noto_sans" load="true"/>
+		<font path="thuverx/fonts/notosans/noto_sans" load="true"/>
+		<texture path="thuverx/fonts/notosans/noto_sans_jp" load="true"/>
+		<font path="thuverx/fonts/notosans/noto_sans_jp" load="true"/>
+
+		<texture path="thuverx/fonts/notosans/noto_sans_numbers" load="true"/>
+		<font path="thuverx/fonts/notosans/noto_sans_numbers" load="true"/>
+
+		<!-- INTRO CINEMATIC STUFF -->
+
+		<unit_mat path="introcinematics/units/camera/cinematic_camera"/>
+
+		<texture path="introcinematics/textures/cs"/>
+		<texture path="introcinematics/textures/cs_top"/>
+		<texture path="introcinematics/textures/cs_mid"/>
+		<texture path="introcinematics/textures/cs_bot"/>
+		<texture path="introcinematics/textures/cs_face"/>
+		  
+		<!-- global -->
+		<unit_mat_seq path="introcinematics/units/global/str_vehicle_van_player/str_vehicle_van_player" auto_cp="false"/>
+
+		<!-- election_day_1 -->
+		<unit_mat_seq path="introcinematics/units/election_day_1/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat" auto_cp="false"/>
+		
+		<!-- arm_cro -->
+		<unit_mat_seq path="introcinematics/units/arm_cro/vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport" auto_cp="false"/>
+		
+		<!-- arm_hcm -->
+		<unit_mat_seq path="introcinematics/units/arm_hcm/c4_plantable/c4_plantable"/>
+		<unit_mat_seq path="introcinematics/units/arm_hcm/bnk_prop_security_keybox/bnk_prop_security_keybox" auto_cp="false"/>
+		<unit_mat_seq path="introcinematics/units/arm_hcm/overpass/hcm_b_ext_4x4m_a_overpass_end_a_interact"/>
+		<unit_mat_seq path="introcinematics/units/arm_hcm/overpass/hcm_b_ext_4x8m_a_overpass_tile_a_interact"/>
+
+	    <!-- nightclub -->
+		<unit_mat path="introcinematics/units/nightclub/ene_gang_russian_2/ene_gang_russian_2" auto_cp="false"/>
+
+		<!-- alex_2 -->
+		<unit_mat path="introcinematics/units/alex_2/ene_gang_black_1/ene_gang_black_1" auto_cp="false"/>
+		<unit_mat path="introcinematics/units/alex_2/ene_gang_black_3/ene_gang_black_3" auto_cp="false"/>
+
+	    <!-- watchdogs_1 -->
+		<unit_mat_seq path="introcinematics/units/watchdogs_1/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition" auto_cp="false"/>
+		<unit_mat_seq path="introcinematics/units/watchdogs_1/str_vehicle_car_police_washington/str_vehicle_car_police_washington" auto_cp="false"/>
+		
+		<!-- arm_par -->
+		<unit_mat_seq path="introcinematics/units/arm_par/str_vehicle_big_truck/str_vehicle_big_truck" auto_cp="false"/>
+		
+		<!-- man -->
+		<unit_mat_seq path="introcinematics/units/man/secret_stash_crane_vehicle_event/secret_stash_crane_event_crane" auto_cp="false"/>
+		
+		<!-- fish -->
+		<unit_mat_seq path="introcinematics/units/fish/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat" auto_cp="false"/>
+		
+	</AddFiles>
+</table>

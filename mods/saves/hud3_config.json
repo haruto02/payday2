@@ -1,0 +1,63 @@
+{
+            "buff": {
+                          "buffSize": 50,
+                            "enable": false,
+                        "showReload": false,
+                         "xPosition": 20,
+                         "yPosition": 24
+                    },
+            "chat": {
+                               "custody": 0,
+                             "dominated": 0,
+                                "downed": 0,
+                         "downedWarning": 0,
+                            "minionShot": 0,
+                           "replenished": 0,
+                        "replenishedFAK": 0
+                    },
+          "corner": {
+                        "color": "SkyBlue"
+                    },
+           "float": {
+                            "blurBackground": false,
+                                     "frame": true,
+                        "showConvertedEnemy": false,
+                                "showDrills": false,
+                           "showTargetsCivs": false,
+                        "showTargetsConvert": false,
+                         "showTargetsTeamAi": false
+                    },
+            "game": {
+                        "colorizeCrimenet": true
+                    },
+             "hit": {
+                        "duration": 1,
+                          "number": false
+                    },
+      "name_label": {
+                        "showBoost": false
+                    },
+     "performance": {
+                         "blockBloodDecals": true,
+                        "blockBulletDecals": true,
+                             "blockCorpses": true,
+                             "blockHelmets": true,
+                           "blockMagazines": true,
+                             "blockShields": true,
+                        "reduceShotgunSpam": true
+                    },
+    "playerBottom": {
+                        "showFpsBottom": 1
+                    },
+           "popup": {
+                           "AiDamage": false,
+                         "crewDamage": false,
+                        "damageDecay": 2,
+                               "size": 20
+                    },
+            "root": {
+                              "optionsMenuKey": "\\",
+                        "showMusicTitlePrefix": "9",
+                                "shuffleMusic": true
+                    }
+}

@@ -1,0 +1,1 @@
+PlayerCarry.target_tilt = 0 --original: -5

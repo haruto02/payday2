@@ -1,0 +1,23 @@
+Revision 7:
+- fixed compatibility issue with mod "Tactical Lean"
+
+Revision 6:
+- changed update system to Simple Mod Updater
+
+Revision 5:
+- moved flashlight code into "Yet Another Flashlight", http://paydaymods.com/mods/670/YAF
+
+Revision 4:
+- reworked flashlight: still aims at screen center but without change of focus
+- decreased flashlight glow
+- increased flashlight range but light intensity changes with distance
+
+Revision 3:
+- fixed very short position glitch when enabling laser/flashlight
+- fixed flashlight camera position when walking
+
+Revision 2:
+- extended the notion to flashlights
+
+Revision 1:
+- initial release

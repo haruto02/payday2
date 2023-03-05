@@ -1,0 +1,13 @@
+{
+    "name" : "No Cloaker Camera Movement",
+    "description" : "Cloakers no longer move your camera when charging.",
+    "author" : "Zdann",
+	"contact" : "http://steamcommunity.com/profiles/76561198001478193/",
+    "version" : "1",
+	"blt_version" : 2,
+	"hooks" : [
+        	{	"hook_id" : "lib/units/cameras/fpcameraplayerbase",
+        		"script_path" : "fpcameraplayerbase.lua"
+    		}
+    ]
+}

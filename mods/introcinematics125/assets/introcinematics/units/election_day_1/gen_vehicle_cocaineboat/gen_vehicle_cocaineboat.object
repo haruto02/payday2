@@ -1,0 +1,61 @@
+<dynamic_object>
+    <diesel orientation_object="rp_speed_boat" materials="introcinematics/units/election_day_1/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat" />
+    <sequence_manager file="introcinematics/units/election_day_1/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat" />
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="animated">
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" />
+		</body>
+	</bodies> 
+	<animations>
+        <animation_group name="hi_and_bye" >
+            <object enabled="true" name="a_head" />
+            <object enabled="true" name="a_fingers" />
+            <object enabled="true" name="a_wrist" />
+            <object enabled="true" name="a_elbow" />
+            <object enabled="true" name="a_shoulder" />
+            <object enabled="true" name="a_torso" />
+            <object enabled="true" name="a_body" />
+        </animation_group>
+        <animation_group name="tarp_group" >
+            <object enabled="true" name="cloth_1" />
+            <object enabled="true" name="cloth_2" />
+            <object enabled="true" name="cloth_3" />
+            <object enabled="true" name="cloth_4" />
+            <object enabled="true" name="cloth_5" />
+            <object enabled="true" name="cloth_6" />
+            <object enabled="true" name="cloth_7" />
+            <object enabled="true" name="cloth_8" />
+            <object enabled="true" name="cloth_9" />
+            <object enabled="true" name="cloth_10" />
+            <object enabled="true" name="cloth_11" />
+            <object enabled="true" name="cloth_12" />
+        </animation_group>
+        <animation_group name="boat" >
+            <object enabled="true" name="boat_pos" />
+            <object enabled="true" name="boat_bank" />
+            <object enabled="true" name="water_wave" />
+        </animation_group>
+    </animations>
+    <graphics>
+        <object enabled="true" name="g_cloth" shadow_caster="true" />
+        <object enabled="true" name="g_snubbe" />
+        <object enabled="true" name="g_speedboat" shadow_caster="true" />
+        <object enabled="true" name="g_barrels" />
+        <object enabled="false" name="g_lid_4" />
+        <object enabled="false" name="g_lid_3" />
+        <object enabled="false" name="g_lid_2" />
+        <object enabled="false" name="g_lid_1" />
+        <object enabled="true" name="g_water_wave" />
+    </graphics>
+	<effects>
+		<effect_spawner name="water_splash_1" 		enabled="false" object="e_splash_1" 	effect="effects/particles/dest/fire_hydrant_splash" />
+		<effect_spawner name="water_splash_2" 		enabled="false" object="e_splash_2" 	effect="effects/particles/dest/fire_hydrant_splash" />
+		<effect_spawner name="water_splash_3" 		enabled="false" object="e_splash_3" 	effect="effects/particles/dest/fire_hydrant_splash" />
+		<effect_spawner name="water_splash_4" 		enabled="false" object="e_splash_4" 	effect="effects/particles/dest/fire_hydrant_splash" />
+		<effect_spawner name="water_splash_5" 		enabled="false" object="e_splash_5" 	effect="effects/particles/dest/fire_hydrant_splash" />
+		<effect_spawner name="water_splash_6" 		enabled="false" object="e_splash_6" 	effect="effects/particles/dest/fire_hydrant_splash" />
+		<effect_spawner name="water_splash_7" 		enabled="false" object="e_splash_7" 	effect="effects/particles/dest/fire_hydrant_splash" />
+		<effect_spawner name="water_splash_8" 		enabled="false" object="e_splash_8" 	effect="effects/particles/dest/fire_hydrant_splash" />
+	</effects>
+</dynamic_object>

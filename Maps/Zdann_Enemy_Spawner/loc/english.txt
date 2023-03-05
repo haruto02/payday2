@@ -1,0 +1,6 @@
+{
+	"heist_Zdann_Enemy_Spawner_name" : "Enemy Spawner",
+	"heist_Zdann_Enemy_Spawner_brief" : "Spawn enemies to test out mods and take fancy screenshots without being shot at. \nCreated by Zdann.",
+	"heist_Enemy_Spawner_name" : "Enemy Spawner",
+	"heist_Enemy_Spawner_brief" : "Spawn enemies to test out mods and take fancy screenshots without being shot at. \nCreated by Zdann."
+}

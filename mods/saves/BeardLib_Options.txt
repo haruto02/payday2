@@ -1,0 +1,5 @@
+{	"ShowErrorsDialog":true,	"MenuColor":"Color(1, 0, 0.47843140363693, 0.95294123888016)",	"ShowImages":true,	"IgnoredUpdates":{},	"DisabledMods":{},	"CustomMapsOnlyFilter":false,	"OptimizedMusicLoad":true,	"LogInit":false,	"ImportantNotice":true,	"ModSettings":{
+	"Maps/Proving Grounds/":{
+	"DevelopMode":false
+}
+},	"GithubUpdates":false,	"LogSounds":false,	"DevMode":false}

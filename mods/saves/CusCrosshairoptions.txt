@@ -1,0 +1,1 @@
+{"HUD":{"RGB_G":1,"RGB_ALPHA":1,"Dot":4,"cross_width":4,"cross_length":5,"dot_length":4,"cross_length_tb":5,"Hide_on_zoom":true,"RGB_R":1,"RGB_B":1,"cross_width_tb":4}}

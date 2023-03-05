@@ -1,0 +1,23 @@
+<dynamic_object>
+  <diesel materials="introcinematics/units/arm_hcm/c4_plantable/c4_plantable" orientation_object="rp_c4_plantable" />
+  <sequence_manager file="introcinematics/units/arm_hcm/c4_plantable/c4_plantable" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static" remove_ray_type="walk">
+      <object name="rp_c4_plantable" />
+      <object name="c_c4_box" collision_type="box" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="plastic" static="true">
+    <decal_mesh name="g_c4" enabled="true" material="plastic" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_c4" enabled="true" instance_struct="world_tm" />
+    <object name="g_c4_glow" enabled="false" />
+  </graphics>
+
+  <lights>
+    <light name="li_red" enabled="true" type="omni|specular" multiplier="identity" />
+  </lights>
+</dynamic_object>

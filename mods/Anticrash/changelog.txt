@@ -1,0 +1,58 @@
+Revision 18:
+- updated to U232
+- extended text checks
+
+Revision 17:
+- added check to ensure that no actions are taken against oneself (case where a mod uses on local player some code reserved for peers and a crash happens in it)
+
+Revision 16:
+- added spanish translation by Kilowide
+
+Revision 15:
+- fixed missing parameter in spawn protection
+
+Revision 14:
+- added protection on melee item spawning
+- cleaned up code
+
+Revision 13:
+- like r12 but done correctly this time
+
+Revision 12:
+- added protection on projectiles spawning
+
+Revision 11:
+- added secured loot cleaner
+
+Revision 10:
+- added protection when interacting with deployables not set up (commonly due to bad network)
+
+Revision 9:
+- fixed text verification branch that missed a "not"
+
+Revision 8:
+- added text verification
+
+Revision 7:
+- added weapon blueprint sanitizer
+
+Revision 6:
+- fixed case of set_stance messed up big time
+- fixed options menu not listing non-generic options
+
+Revision 5:
+- added more checks on the 2 cases handled manually
+
+Revision 4:
+- added manual checks on some of the most called rpc
+- changed default settings of forementioned rpc to unprotected (by slow generic protection)
+
+Revision 3:
+- reworded setting "nothing" to "quiet"
+- added setting "unprotected"
+
+Revision 2:
+- extended to ConnectionNetworkHandler
+
+Revision 1:
+- initial release

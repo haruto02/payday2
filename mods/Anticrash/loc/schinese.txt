@@ -1,0 +1,17 @@
+{
+	"anticrash_options_menu_title" : "炸房保护",
+	"anticrash_options_menu_desc" : "防止因网络延迟、恶意玩家和他人的老旧模组导致作为房主的您闪退",
+
+	"anticrash_options_default_action_title" : "默认行为",
+	"anticrash_options_default_action_desc" : "设置检测到被炸房时，对发起炸房的玩家的\"默认\"行为模式\n(!注意!：炸房可以是网络延迟造成的，不一定是玩家恶意要炸您的房)",
+
+	"anticrash_action_type_default" : "默认",
+	"anticrash_action_type_unprotected" : "不受保护",
+	"anticrash_action_type_quiet" : "无行动",
+	"anticrash_action_type_chat" : "聊天框提示",
+	"anticrash_action_type_kick" : "踢出",
+	"anticrash_action_type_ban" : "拉黑",
+
+	"anticrash_crash_prevented" : "已阻止类型为 ($SOURCE) 的炸房",
+	"anticrash_crash_coming_from" : ", 该炸房来自于玩家： $NAME"
+}

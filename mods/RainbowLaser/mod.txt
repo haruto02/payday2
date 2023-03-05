@@ -1,0 +1,13 @@
+{
+	"name": "Rainbow Laser",
+	"description": "Rainbow Laser",
+	"author": "intergalacticninja\n    ported to BLT + menu integration by Syncrossus",
+	"contact": "",
+	"version": "1.0",
+	"hooks": [
+		{
+			"hook_id": "lib/units/weapons/weaponlaser",
+			"script_path": "LaserCustom.lua"
+		}
+	]
+}

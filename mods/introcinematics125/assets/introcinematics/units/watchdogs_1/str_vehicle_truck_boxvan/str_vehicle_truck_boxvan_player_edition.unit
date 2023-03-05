@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<unit type="str" slot="1" >
+	<object file="introcinematics/units/watchdogs_1/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition" />	
+	<!-- <dependencies>
+		<depends_on effect="effects/payday2/particles/window/storefront_window_small" />
+		<depends_on effect="effects/particles/bullet_hit/misc/misc_tire" />
+		<depends_on effect="effects/particles/bullet_hit/sheet_metal/bullet_hit_sheet_metal" />
+	</dependencies> -->
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="break_open" />
+			<var name="_interact_object" value="interaction_location" />
+		</extension>
+	</extensions>
+</unit>

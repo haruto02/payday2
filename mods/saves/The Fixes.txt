@@ -1,0 +1,1 @@
+{"fire_dot":true,"_hooks":{"CopDamage":true},"cops_reload":true,"override":[],"last_msg_id":"20190304","shotgun_turret":true,"language":1,"gambler":true,"shotgun_dozer_face":true,"instant_quit":true,"dozers_counting":true}

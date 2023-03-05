@@ -1,0 +1,15 @@
+{
+	"name": "Low Violence Mode",
+	"description": "Instantly removes dead bodies and decals",
+	"author": "Schmuddel",
+	"contact" : "steamcommunity.com/groups/schmudmods",
+	"version": "3",
+	"blt_version" : 2,
+	"image" : "lvm.png",
+	"updates" : [ { "revision" : 3, "identifier" : "LVM" } ],
+	"hooks": [
+		{ "hook_id": "lib/managers/enemymanager", "script_path": "lvm.lua" },
+		{ "hook_id": "lib/managers/gameplaycentralmanager", "script_path": "lvm.lua" },
+		{ "hook_id": "lib/units/enemies/cop/copdamage", "script_path": "lvm.lua" }
+	]
+}

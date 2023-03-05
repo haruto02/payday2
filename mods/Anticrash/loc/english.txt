@@ -1,0 +1,17 @@
+{
+	"anticrash_options_menu_title" : "Anticrash",
+	"anticrash_options_menu_desc"  : "Protects against most crashes due to network lag or malicious players.",
+
+	"anticrash_options_default_action_title" : "Default action",
+	"anticrash_options_default_action_desc" : "",
+
+	"anticrash_action_type_default" : "default",
+	"anticrash_action_type_unprotected" : "unprotected",
+	"anticrash_action_type_quiet" : "quiet",
+	"anticrash_action_type_chat" : "chat",
+	"anticrash_action_type_kick" : "kick",
+	"anticrash_action_type_ban" : "ban",
+
+	"anticrash_crash_prevented" : "Crash prevented ($SOURCE)",
+	"anticrash_crash_coming_from" : ", coming from $NAME"
+}

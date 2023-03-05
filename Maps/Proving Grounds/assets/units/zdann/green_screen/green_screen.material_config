@@ -1,0 +1,9 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" name="mat_mkp" version="2">
+        <diffuse_texture file="units/zdann/green_screen/green_df"/>
+        <bump_normal_texture file="units/zdann/green_screen/green_nm"/>
+        <self_illumination_texture file="units/zdann/green_screen/green_df"/>
+        <variable type="scalar" name="il_multiplier" value="inside of borg queen"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

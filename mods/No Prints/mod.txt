@@ -1,0 +1,19 @@
+{
+    "name" : "No Print",
+    "description" : "",
+    "author" : "Nepsy",
+    "contact" : "id/Nepgearsy",
+    "version" : "3",
+    "blt_version" : 2,
+    "priority" : 1001,
+    "hooks":[  
+        {  
+            "hook_id":"lib/entry",
+            "script_path":"ded.lua"
+        },
+        {  
+            "hook_id":"core/lib/utils/coredebug",
+            "script_path":"ded.lua"
+        }
+    ]
+}
