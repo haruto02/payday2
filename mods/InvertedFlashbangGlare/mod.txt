@@ -1,0 +1,17 @@
+{
+	"name" : "Inverted Flashbang Glare",
+	"description" : "Makes flashbangs cause blackouts instead of white-outs. Here's one for all you heisters dwelling in darkness.",
+	"author" : "Snh20",
+	"version" : "0.0.3.4",
+	"priority" : 10,
+	"hooks" : [
+		{
+			"hook_id" : "core/lib/managers/coreenvironmentcontrollermanager",
+			"script_path" : "coreenvironmentcontrollermanager.lua"
+		},
+		{
+			"hook_id" : "lib/managers/hudmanager",
+			"script_path" : "hudmanager.lua"
+		}
+	]
+}
